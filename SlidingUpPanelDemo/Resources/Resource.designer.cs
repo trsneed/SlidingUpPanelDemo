@@ -24,8 +24,39 @@ namespace SlidingUpPanelDemo
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+			global::Cheesebaron.SlidingUpPanel.Resource.Attribute.collapsedHeight = global::SlidingUpPanelDemo.Resource.Attribute.collapsedHeight;
+			global::Cheesebaron.SlidingUpPanel.Resource.Attribute.dragView = global::SlidingUpPanelDemo.Resource.Attribute.dragView;
+			global::Cheesebaron.SlidingUpPanel.Resource.Attribute.fadeColor = global::SlidingUpPanelDemo.Resource.Attribute.fadeColor;
+			global::Cheesebaron.SlidingUpPanel.Resource.Attribute.flingVelocity = global::SlidingUpPanelDemo.Resource.Attribute.flingVelocity;
+			global::Cheesebaron.SlidingUpPanel.Resource.Attribute.shadowHeight = global::SlidingUpPanelDemo.Resource.Attribute.shadowHeight;
+			global::Cheesebaron.SlidingUpPanel.Resource.Drawable.above_shadow = global::SlidingUpPanelDemo.Resource.Drawable.above_shadow;
+			global::Cheesebaron.SlidingUpPanel.Resource.Styleable.SlidingUpPanelLayout = global::SlidingUpPanelDemo.Resource.Styleable.SlidingUpPanelLayout;
+			global::Cheesebaron.SlidingUpPanel.Resource.Styleable.SlidingUpPanelLayout_collapsedHeight = global::SlidingUpPanelDemo.Resource.Styleable.SlidingUpPanelLayout_collapsedHeight;
+			global::Cheesebaron.SlidingUpPanel.Resource.Styleable.SlidingUpPanelLayout_dragView = global::SlidingUpPanelDemo.Resource.Styleable.SlidingUpPanelLayout_dragView;
+			global::Cheesebaron.SlidingUpPanel.Resource.Styleable.SlidingUpPanelLayout_fadeColor = global::SlidingUpPanelDemo.Resource.Styleable.SlidingUpPanelLayout_fadeColor;
+			global::Cheesebaron.SlidingUpPanel.Resource.Styleable.SlidingUpPanelLayout_flingVelocity = global::SlidingUpPanelDemo.Resource.Styleable.SlidingUpPanelLayout_flingVelocity;
+			global::Cheesebaron.SlidingUpPanel.Resource.Styleable.SlidingUpPanelLayout_shadowHeight = global::SlidingUpPanelDemo.Resource.Styleable.SlidingUpPanelLayout_shadowHeight;
+		}
+		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010000
+			public const int collapsedHeight = 2130771968;
+			
+			// aapt resource value: 0x7f010004
+			public const int dragView = 2130771972;
+			
+			// aapt resource value: 0x7f010002
+			public const int fadeColor = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int flingVelocity = 2130771971;
+			
+			// aapt resource value: 0x7f010001
+			public const int shadowHeight = 2130771969;
 			
 			static Attribute()
 			{
@@ -41,7 +72,10 @@ namespace SlidingUpPanelDemo
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int above_shadow = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -56,8 +90,29 @@ namespace SlidingUpPanelDemo
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int Name = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int infobox = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int lblAddress = 2131034116;
+			
+			// aapt resource value: 0x7f050006
+			public const int lblPhone = 2131034118;
+			
+			// aapt resource value: 0x7f050003
+			public const int name = 2131034115;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int sliding_layout = 2131034112;
+			
+			// aapt resource value: 0x7f050005
+			public const int txtAddress = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int txtPhone = 2131034119;
 			
 			static Id()
 			{
@@ -100,6 +155,42 @@ namespace SlidingUpPanelDemo
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] SlidingUpPanelLayout = new int[]
+			{
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972};
+			
+			// aapt resource value: 0
+			public const int SlidingUpPanelLayout_collapsedHeight = 0;
+			
+			// aapt resource value: 4
+			public const int SlidingUpPanelLayout_dragView = 4;
+			
+			// aapt resource value: 2
+			public const int SlidingUpPanelLayout_fadeColor = 2;
+			
+			// aapt resource value: 3
+			public const int SlidingUpPanelLayout_flingVelocity = 3;
+			
+			// aapt resource value: 1
+			public const int SlidingUpPanelLayout_shadowHeight = 1;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
